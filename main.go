@@ -26,7 +26,7 @@ func main() {
 	for {
 		checkCurrentTemp(originUnit)
 
-		if userWantsToConvertAgain() {
+		if !userWantsToConvertAgain() {
 			fmt.Println("Good bye!")
 			break
 		}
